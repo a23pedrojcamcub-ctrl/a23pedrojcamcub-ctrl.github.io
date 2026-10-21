@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reserva - El Rincón de Pedro</title>
+    <meta name="author" content="Pedro Camacho Cubero">
+    <meta name="description" content="Formulario para reservar mesa en El Rincón de Pedro: nombre, número de clientes, contacto, fecha y hora.">
+    <meta name="keywords" content="reserva, mesa, restaurante, formulario, fecha, hora">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+
+<header>
+    <h1>El Rincón de Pedro</h1>
+</header>
+
+<nav>
+    <a href="index.html">Volver al inicio del restaurante</a>
+</nav>
+
+<main>
+
+    <br>
+
+    <h2>Haz una reserva</h2>
+
+    <form action="#" method="post">
+        <p><label for="res-nombre">Su nombre:</label> <input type="text" id="res-nombre" name="nombre" required></p>
+        <p><label for="res-clientes">Número de clientes:</label> <input type="number" id="res-clientes" name="clientes" min="1" max="20" required></p>
+        <p><label for="res-email">Su correo electrónico:</label> <input type="email" id="res-email" name="email" placeholder="correo@ejemplo.com" required></p>
+        <p><label for="res-telefono">Su teléfono:</label> <input type="tel" id="res-telefono" name="telefono" placeholder="600123456" required></p>
+        <p><label for="res-fecha">Fecha de la reserva:</label> <input type="date" id="res-fecha" name="fecha" required></p>
+        <p><label for="res-hora">Hora de la reserva:</label> <input type="time" id="res-hora" name="hora" required></p>
+        <p><label for="res-mensaje">Su mensaje:</label> <input type="text" id="res-mensaje" name="mensaje"></p>
+        <p><button type="submit">Solicitar reserva</button></p>
+        <p>Si desea saber cómo protegemos sus datos, consulte nuestra <a href="#">Política de privacidad</a></p>
+    </form>
+
+</main>
+
+<footer>
+    © 2026 El Rincón de Pedro
+</footer>
+
+</body>
+</html>

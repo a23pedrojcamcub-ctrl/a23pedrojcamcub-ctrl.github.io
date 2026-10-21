@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - El Rincón de Pedro</title>
+    <meta name="author" content="Pedro Camacho Cubero">
+    <meta name="description" content="Formulario de contacto con El Rincón de Pedro: envíanos tu mensaje, consulta o sugerencia.">
+    <meta name="keywords" content="contacto, mensaje, restaurante, formulario, consulta">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+
+<header>
+    <h1>El Rincón de Pedro</h1>
+</header>
+
+<nav>
+    <a href="index.html">Volver al inicio del restaurante</a>
+</nav>
+
+<main>
+
+    <br>
+
+    <h2>Envíenos su mensaje</h2>
+
+    <form action="#" method="post">
+        <p><label for="con-nombre">Su nombre:</label> <input type="text" id="con-nombre" name="nombre" required></p>
+        <p><label for="con-email">Su correo electrónico:</label> <input type="email" id="con-email" name="email" placeholder="correo@ejemplo.com" required></p>
+        <p><label for="con-telefono">Su teléfono:</label> <input type="tel" id="con-telefono" name="telefono" placeholder="600123456"></p>
+        <p><label for="con-asunto">Asunto:</label> <input type="text" id="con-asunto" name="asunto" required></p>
+        <p>
+            <label for="con-mensaje">Su mensaje (máximo 500 caracteres):</label><br>
+            <textarea id="con-mensaje" name="mensaje" rows="8" cols="50" maxlength="500" required></textarea>
+        </p>
+        <p><button type="submit">Enviar</button></p>
+    </form>
+
+</main>
+
+<footer>
+    © 2026 El Rincón de Pedro
+</footer>
+
+</body>
+</html>

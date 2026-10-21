@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reseña de un plato - El Rincón de Pedro</title>
+    <meta name="author" content="Pedro Camacho Cubero">
+    <meta name="description" content="Formulario para escribir una reseña de un plato de El Rincón de Pedro: tortilla de patatas, gazpacho o paella.">
+    <meta name="keywords" content="reseña, plato, opinión, restaurante, formulario, tortilla, gazpacho, paella">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+
+<header>
+    <h1>El Rincón de Pedro</h1>
+</header>
+
+<nav>
+    <a href="index.html">Volver al inicio del restaurante</a>
+</nav>
+
+<main>
+
+    <br>
+
+    <h2>Reseña de un plato</h2>
+
+    <form action="#" method="post">
+        <p>
+            <label for="res-plato">Plato:</label>
+            <select id="res-plato" name="plato" required>
+                <option value="">Elige un plato</option>
+                <option value="tortilla">Tortilla de Patatas</option>
+                <option value="gazpacho">Gazpacho Andaluz</option>
+                <option value="paella">Paella Valenciana</option>
+            </select>
+        </p>
+        <p><label for="res-nombre">Nombre:</label> <input type="text" id="res-nombre" name="nombre" required></p>
+        <p>
+            <label for="res-resena">Reseña del plato:</label><br>
+            <textarea id="res-resena" name="resena" rows="6" cols="50" required></textarea>
+        </p>
+        <p><button type="submit">Enviar reseña</button></p>
+    </form>
+
+</main>
+
+<footer>
+    © 2026 El Rincón de Pedro
+</footer>
+
+</body>
+</html>
