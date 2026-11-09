@@ -1,0 +1,159 @@
+/* Hoja de estilos de las prácticas de Pedro */
+
+/* Reseteo: quito los márgenes y rellenos que pone el navegador */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Cuerpo de la página: letra Arial, fondo verde clarito y texto oscuro */
+body {
+    font-family: Arial, sans-serif;
+    background-color: oklch(96% 0.025 175);
+    color: rgb(40, 40, 40);
+}
+
+/* Clase franja: la uso en el header y en el footer, fondo verde y letras blancas */
+.franja {
+    background-color: rgb(32, 110, 100);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+}
+
+/* Id del nombre: le pongo un gradiente verde de izquierda a derecha */
+#nombre-alumno {
+    background-image: linear-gradient(to right, oklch(33% 0.08 175), oklch(55% 0.12 170));
+    padding: 10px;
+}
+
+/* Menú: una barra verde clarita con los enlaces en el centro */
+nav {
+    background-color: oklch(90% 0.05 175);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Enlaces del menú: en negrita, verde oscuro y sin subrayar */
+nav a {
+    color: rgb(20, 80, 70);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Contenido principal: caja blanca con borde verde, centrada en la página */
+main {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(32, 110, 100);
+    width: 70%;
+    min-height: 300px;
+    margin: 25px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título de bienvenida: con un poco de espacio debajo */
+main h2 {
+    margin-bottom: 10px;
+}
+
+/* Imagen de bienvenida: la hago más pequeña para que quepa en la caja y le dejo espacio arriba */
+main img {
+    width: 400px;
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+/* Pie de página: letra pequeña */
+footer {
+    font-size: 14px;
+}
+
+/* ===== HORARIO DE CLASE ===== */
+
+/* Tabla del horario: centrada, con un borde doble verde y huecos entre celdas */
+table {
+    margin: 0 auto;
+    border: 4px double rgb(32, 110, 100);
+    border-spacing: 5px;
+}
+
+/* Cabecera de la tabla (los días): en negrita y cursiva */
+th {
+    font-style: italic;
+    padding: 8px;
+}
+
+/* Celdas normales: centradas, letra en negrita y con espacio por dentro */
+td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 12px 14px;
+}
+
+/* Columna de las horas: sin color de fondo y con letra normal */
+.hora {
+    font-weight: normal;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Última fila de la tabla (el pie): en cursiva */
+tfoot td {
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* Un color distinto para cada módulo (cada uno con su clase) */
+
+/* SOR: verde agua */
+.sor {
+    background-color: rgb(160, 220, 205);
+}
+
+/* APWEB: rosa */
+.apweb {
+    background-color: rgb(245, 190, 210);
+}
+
+/* SRED: lila */
+.sred {
+    background-color: oklch(85% 0.08 305);
+}
+
+/* SGI: naranja claro */
+.sgi {
+    background-color: oklch(86% 0.1 55);
+}
+
+/* ING: amarillo suave */
+.ing {
+    background-color: oklch(92% 0.1 100);
+}
+
+/* IPE: verde claro */
+.ipe {
+    background-color: oklch(86% 0.1 140);
+}
+
+/* PROY: azul claro */
+.proy {
+    background-color: oklch(84% 0.08 250);
+}
+
+/* OPTV: salmón */
+.optv {
+    background-color: oklch(82% 0.1 25);
+}
+
+/* OPTAV: celeste */
+.optav {
+    background-color: oklch(87% 0.07 215);
+}
+
+/* RECREO: gris clarito con las letras separadas */
+.recreo {
+    background-color: rgb(215, 215, 215);
+    letter-spacing: 4px;
+}
